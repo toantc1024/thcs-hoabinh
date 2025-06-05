@@ -8,19 +8,24 @@ const HomePage = () => {
             <section className="relative pt-8">
                 <div className="bg-gradient-to-r from-blue-700/90 to-indigo-700/90 backdrop-blur-md text-white rounded-xl mx-4 lg:mx-8 overflow-hidden shadow-xl">
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
-                        <div className="md:w-2/3">
-                            <h1 className="text-4xl md:text-5xl font-bold mb-4">Trường THCS Hòa Bình</h1>
-                            <p className="text-xl md:text-2xl mb-8">Chất lượng giáo dục - Môi trường thân thiện</p>
-                            <p className="text-lg mb-6">
-                                Trường THCS Hòa Bình là trường trọng điểm, trường chất lượng cao của huyện Hòa Bình, tỉnh Bạc Liêu.
-                            </p>
-                            <div className="flex flex-col sm:flex-row gap-4">
-                                <a href="#about" className="bg-white/90 backdrop-blur-sm text-blue-700 font-medium px-6 py-3 rounded-md hover:bg-white transition duration-300 text-center">
-                                    Tìm hiểu thêm
-                                </a>
-                                <a href="#admission" className="bg-yellow-500/90 backdrop-blur-sm text-white font-medium px-6 py-3 rounded-md hover:bg-yellow-500 transition duration-300 text-center">
-                                    Thông tin tuyển sinh
-                                </a>
+                        <div className="flex flex-col md:flex-row items-center">
+                            <div className="md:w-1/4 flex justify-center mb-8 md:mb-0">
+                                <img src="/src/assets/LOGO.png" alt="Logo THCS Hòa Bình" className="w-40 h-40 object-contain drop-shadow-glow" />
+                            </div>
+                            <div className="md:w-2/3">
+                                <h1 className="text-4xl md:text-5xl font-bold mb-4">Trường THCS Hòa Bình</h1>
+                                <p className="text-xl md:text-2xl mb-8">Chất lượng giáo dục - Môi trường thân thiện</p>
+                                <p className="text-lg mb-6">
+                                    Trường THCS Hòa Bình là trường trọng điểm, trường chất lượng cao của huyện Hòa Bình, tỉnh Bạc Liêu.
+                                </p>
+                                <div className="flex flex-col sm:flex-row gap-4">
+                                    <a href="#about" className="bg-white/90 backdrop-blur-sm text-blue-700 font-medium px-6 py-3 rounded-md hover:bg-white transition duration-300 text-center">
+                                        Tìm hiểu thêm
+                                    </a>
+                                    <a href="#admission" className="bg-yellow-500/90 backdrop-blur-sm text-white font-medium px-6 py-3 rounded-md hover:bg-yellow-500 transition duration-300 text-center">
+                                        Thông tin tuyển sinh
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -65,7 +70,10 @@ const HomePage = () => {
             {/* About Section */}            <section id="about" className="py-16">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-12">
-                        <h2 className="text-3xl font-bold text-gray-800">Giới thiệu Trường THCS Hòa Bình</h2>
+                        <div className="flex justify-center items-center mb-4">
+                            <img src="/src/assets/LOGO.png" alt="Logo THCS Hòa Bình" className="w-12 h-12 object-contain mr-3" />
+                            <h2 className="text-3xl font-bold text-gray-800">Giới thiệu Trường THCS Hòa Bình</h2>
+                        </div>
                         <div className="w-24 h-1 bg-blue-600 mx-auto my-4"></div>
                     </div>
 
@@ -105,7 +113,10 @@ const HomePage = () => {
             {/* Admission Section */}            <section id="admission" className="py-16 bg-white/60 backdrop-blur-md">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-12">
-                        <h2 className="text-3xl font-bold text-gray-800">Thông tin tuyển sinh lớp 6 – Năm học 2024-2025</h2>
+                        <div className="flex justify-center items-center mb-4">
+                            <img src="/src/assets/LOGO.png" alt="Logo THCS Hòa Bình" className="w-12 h-12 object-contain mr-3" />
+                            <h2 className="text-3xl font-bold text-gray-800">Thông tin tuyển sinh lớp 6 – Năm học 2024-2025</h2>
+                        </div>
                         <div className="w-24 h-1 bg-blue-600 mx-auto my-4"></div>
                     </div>
 
@@ -163,7 +174,10 @@ const HomePage = () => {
             {/* News Highlights */}            <section className="py-16">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-12">
-                        <h2 className="text-3xl font-bold text-gray-800">Tin tức nổi bật</h2>
+                        <div className="flex justify-center items-center mb-4">
+                            <img src="/src/assets/LOGO.png" alt="Logo THCS Hòa Bình" className="w-12 h-12 object-contain mr-3" />
+                            <h2 className="text-3xl font-bold text-gray-800">Tin tức nổi bật</h2>
+                        </div>
                         <div className="w-24 h-1 bg-blue-600 mx-auto my-4"></div>
                     </div>
 
