@@ -1,13 +1,13 @@
 import React from 'react'
 import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaFacebook, FaYoutube, FaClock } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
-
+import LOGO from '../assets/LOGO.png'
 const Footer = () => {
     return (<footer className="bg-gray-800/90 backdrop-blur-md text-white pt-12 pb-8 border-t border-gray-700/50 shadow-xl">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">                    {/* School Information */}                    <div>
                 <div className="flex items-center mb-4">
-                    <img src="/src/assets/LOGO.png" alt="THCS Hoa Binh Logo" className="h-10 w-10 mr-3 drop-shadow-glow" />
+                    <img src={LOGO} alt="THCS Hoa Binh Logo" className="h-10 w-10 mr-3 drop-shadow-glow" />
                     <h3 className="text-xl font-bold text-white/90">THCS Hòa Bình</h3>
                 </div>
                 <p className="text-gray-400 mb-6">

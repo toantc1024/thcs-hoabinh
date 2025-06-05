@@ -1,5 +1,7 @@
 import React from 'react'
 import { FaCalendar, FaUser, FaTag } from 'react-icons/fa'
+import IMAGE_1 from '../assets/IMAGE_1.png'
+import IMAGE_2 from '../assets/IMAGE_2.png'
 
 const NewsPage = () => {    // Sample news data
     const newsItems = [
@@ -10,7 +12,7 @@ const NewsPage = () => {    // Sample news data
             category: 'Thông báo',
             author: 'Ban Giám Hiệu',
             excerpt: 'Trường THCS Hòa Bình công bố kết quả học tập năm học 2024-2025. Tỷ lệ học sinh đạt danh hiệu học sinh giỏi, tiên tiến tăng so với năm trước.',
-            image: '/src/assets/IMAGE_1.png'
+            image: IMAGE_1
         },
         {
             id: 2,
@@ -19,7 +21,7 @@ const NewsPage = () => {    // Sample news data
             category: 'Tuyển sinh',
             author: 'Hội đồng tuyển sinh',
             excerpt: 'Trường THCS Hòa Bình thông báo kế hoạch tuyển sinh lớp 6 năm học 2025-2026. Thời gian nhận hồ sơ từ ngày 20/6 đến 10/7/2025.',
-            image: '/src/assets/IMAGE_2.png'
+            image: IMAGE_2
         },
         {
             id: 3,
@@ -28,7 +30,7 @@ const NewsPage = () => {    // Sample news data
             category: 'Hoạt động',
             author: 'Đoàn Thanh niên',
             excerpt: 'Trường THCS Hòa Bình tổ chức lễ tổng kết năm học và tri ân thầy cô với nhiều hoạt động ý nghĩa, thể hiện lòng biết ơn của học sinh đối với thầy cô giáo.',
-            image: '/src/assets/IMAGE_1.png'
+            image: IMAGE_1
         },
         {
             id: 4,
@@ -37,7 +39,7 @@ const NewsPage = () => {    // Sample news data
             category: 'Thành tích',
             author: 'Tổ Toán - Lý - Hóa',
             excerpt: 'Các học sinh của trường THCS Hòa Bình đã xuất sắc đạt 13 giải trong kỳ thi học sinh giỏi cấp tỉnh năm học 2024-2025.',
-            image: '/src/assets/IMAGE_2.png'
+            image: IMAGE_2
         },
         {
             id: 5,
@@ -46,7 +48,7 @@ const NewsPage = () => {    // Sample news data
             category: 'Hoạt động',
             author: 'Tổ Xã hội',
             excerpt: 'Trường THCS Hòa Bình tổ chức chương trình ngoại khóa "Em yêu lịch sử Việt Nam" với nhiều hoạt động bổ ích, giúp học sinh hiểu rõ hơn về lịch sử dân tộc.',
-            image: '/src/assets/IMAGE_1.png'
+            image: IMAGE_1
         },
         {
             id: 6,
@@ -55,7 +57,7 @@ const NewsPage = () => {    // Sample news data
             category: 'Thành tích',
             author: 'Tổ Tin học',
             excerpt: 'Học sinh trường THCS Hòa Bình đạt 4 giải trong Hội thi Tin học trẻ cấp tỉnh Bạc Liêu năm 2025, gồm 1 giải Nhì, 1 giải Ba và 2 giải Khuyến khích.',
-            image: '/src/assets/IMAGE_2.png'
+            image: IMAGE_2
         },
     ];
 

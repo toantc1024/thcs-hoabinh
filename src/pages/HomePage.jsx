@@ -1,6 +1,8 @@
 import React from 'react'
 import { FaGraduationCap, FaCalendarAlt, FaUsers, FaMedal, FaSchool } from 'react-icons/fa'
-
+import LOGO from '../assets/LOGO.png'
+import IMAGE_1 from '../assets/IMAGE_1.png'
+import IMAGE_2 from '../assets/IMAGE_2.png'
 const HomePage = () => {
     return (
         <div className="bg-transparent">
@@ -10,7 +12,7 @@ const HomePage = () => {
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
                         <div className="flex flex-col md:flex-row items-center">
                             <div className="md:w-1/4 flex justify-center mb-8 md:mb-0">
-                                <img src="/src/assets/LOGO.png" alt="Logo THCS Hòa Bình" className="w-40 h-40 object-contain drop-shadow-glow" />
+                                <img src={LOGO} alt="Logo THCS Hòa Bình" className="w-40 h-40 object-contain drop-shadow-glow" />
                             </div>
                             <div className="md:w-2/3">
                                 <h1 className="text-4xl md:text-5xl font-bold mb-4">Trường THCS Hòa Bình</h1>
@@ -67,18 +69,19 @@ const HomePage = () => {
                 </div>
             </section>
 
-            {/* About Section */}            <section id="about" className="py-16">
+            {/* About Section */}            
+            <section id="about" className="py-16">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-12">
                         <div className="flex justify-center items-center mb-4">
-                            <img src="/src/assets/LOGO.png" alt="Logo THCS Hòa Bình" className="w-12 h-12 object-contain mr-3" />
+                            <img src={LOGO} alt="Logo THCS Hòa Bình" className="w-12 h-12 object-contain mr-3" />
                             <h2 className="text-3xl font-bold text-gray-800">Giới thiệu Trường THCS Hòa Bình</h2>
                         </div>
                         <div className="w-24 h-1 bg-blue-600 mx-auto my-4"></div>
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center bg-white/60 backdrop-blur-md p-8 rounded-xl shadow-xl border border-white/20"><div>
-                        <img src="/src/assets/IMAGE_1.png" alt="Trường THCS Hòa Bình" className="rounded-lg shadow-xl w-full" />
+                        <img src={IMAGE_1} alt="Trường THCS Hòa Bình" className="rounded-lg shadow-xl w-full" />
                     </div>
                         <div>
                             <p className="text-gray-700 mb-4">
@@ -110,11 +113,12 @@ const HomePage = () => {
                 </div>
             </section>
 
-            {/* Admission Section */}            <section id="admission" className="py-16 bg-white/60 backdrop-blur-md">
+            {/* Admission Section */}            
+            <section id="admission" className="py-16 bg-white/60 backdrop-blur-md">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-12">
                         <div className="flex justify-center items-center mb-4">
-                            <img src="/src/assets/LOGO.png" alt="Logo THCS Hòa Bình" className="w-12 h-12 object-contain mr-3" />
+                            <img src={LOGO} alt="Logo THCS Hòa Bình" className="w-12 h-12 object-contain mr-3" />
                             <h2 className="text-3xl font-bold text-gray-800">Thông tin tuyển sinh lớp 6 – Năm học 2024-2025</h2>
                         </div>
                         <div className="w-24 h-1 bg-blue-600 mx-auto my-4"></div>
@@ -175,7 +179,7 @@ const HomePage = () => {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-12">
                         <div className="flex justify-center items-center mb-4">
-                            <img src="/src/assets/LOGO.png" alt="Logo THCS Hòa Bình" className="w-12 h-12 object-contain mr-3" />
+                            <img src={LOGO} alt="Logo THCS Hòa Bình" className="w-12 h-12 object-contain mr-3" />
                             <h2 className="text-3xl font-bold text-gray-800">Tin tức nổi bật</h2>
                         </div>
                         <div className="w-24 h-1 bg-blue-600 mx-auto my-4"></div>
@@ -183,7 +187,7 @@ const HomePage = () => {
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         <div className="bg-white/70 backdrop-blur-sm rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition duration-300 border border-white/20">
-                            <img src="/src/assets/IMAGE_1.png" alt="Tin tức" className="w-full h-48 object-cover" />
+                            <img src={IMAGE_1} alt="Tin tức" className="w-full h-48 object-cover" />
                             <div className="p-6">
                                 <div className="text-sm text-blue-600 mb-2">05/06/2025</div>
                                 <h3 className="text-xl font-bold mb-2 text-gray-800">Thông báo kết quả học tập năm học 2024-2025</h3>
@@ -192,7 +196,7 @@ const HomePage = () => {
                             </div>
                         </div>
                         <div className="bg-white/70 backdrop-blur-sm rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition duration-300 border border-white/20">
-                            <img src="/src/assets/IMAGE_2.png" alt="Tin tức" className="w-full h-48 object-cover" />
+                            <img src={IMAGE_2} alt="Tin tức" className="w-full h-48 object-cover" />
                             <div className="p-6">
                                 <div className="text-sm text-blue-600 mb-2">01/06/2025</div>
                                 <h3 className="text-xl font-bold mb-2 text-gray-800">Kế hoạch tuyển sinh lớp 6 năm học 2025-2026</h3>
@@ -201,7 +205,7 @@ const HomePage = () => {
                             </div>
                         </div>
                         <div className="bg-white/70 backdrop-blur-sm rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition duration-300 border border-white/20">
-                            <img src="/src/assets/IMAGE_1.png" alt="Tin tức" className="w-full h-48 object-cover" />
+                            <img src={IMAGE_1} alt="Tin tức" className="w-full h-48 object-cover" />
                             <div className="p-6">
                                 <div className="text-sm text-blue-600 mb-2">25/05/2025</div>
                                 <h3 className="text-xl font-bold mb-2 text-gray-800">Lễ tổng kết năm học và tri ân thầy cô</h3>
