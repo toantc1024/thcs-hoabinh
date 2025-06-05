@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { FaHome, FaInfoCircle, FaGraduationCap, FaNewspaper, FaPhone, FaBars, FaTimes } from 'react-icons/fa'
+import LOGO from '../assets/LOGO.png'
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,8 +14,9 @@ const Navbar = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between h-16">
                 {/* Logo and school name */}
-                <div className="flex items-center">                        <div className="flex-shrink-0 flex items-center">
-                    <img className="h-12 w-12 mr-3" src="/src/assets/LOGO.png" alt="THCS Hoa Binh Logo" />
+                <div className="flex items-center">                        
+                    <div className="flex-shrink-0 flex items-center">
+                    <img className="h-12 w-12 mr-3" src={LOGO} alt="THCS Hoa Binh Logo" />
                     <div className="hidden md:block">
                         <h1 className="text-xl font-bold">Trường THCS Hòa Bình</h1>
                         <p className="text-xs text-blue-200">Tỉnh Bạc Liêu</p>
